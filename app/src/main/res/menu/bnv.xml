@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/bnv_home"
+        android:title="홈"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/bnv_search"
+        android:title="검색"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/bnv_choice"
+        android:title="찜"
+        android:icon="@drawable/ic_favorite"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/bnv_post"
+        android:title="찜"
+        android:icon="@drawable/ic_post"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/bnv_myrecall"
+        android:title="마이리콜"
+        android:icon="@drawable/ic_person"
+        app:showAsAction="always"/>
+
+</menu>
